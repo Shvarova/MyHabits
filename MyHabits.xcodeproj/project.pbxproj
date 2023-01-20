@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36026D842976E6940069F487 /* ProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36026D832976E6940069F487 /* ProgressCell.swift */; };
+		36026D862978267D0069F487 /* CreateHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36026D852978267D0069F487 /* CreateHabitViewController.swift */; };
+		36026D88297826FF0069F487 /* EditHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36026D87297826FF0069F487 /* EditHabitViewController.swift */; };
+		36026D8A29784AFB0069F487 /* SetCustomTextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36026D8929784AFB0069F487 /* SetCustomTextColor.swift */; };
+		36026D8E2978B1080069F487 /* DetailsHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36026D8D2978B1080069F487 /* DetailsHabitViewController.swift */; };
+		36507D77296C5127001C6F98 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36507D76296C5127001C6F98 /* TabBarController.swift */; };
+		36507D7A296C722A001C6F98 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36507D79296C722A001C6F98 /* ExtensionUIView.swift */; };
+		36507D7D296DC4F1001C6F98 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36507D7C296DC4F1001C6F98 /* HeaderView.swift */; };
+		36507D7F296DC938001C6F98 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36507D7E296DC938001C6F98 /* Colors.swift */; };
+		36507D812970473C001C6F98 /* HabitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36507D802970473C001C6F98 /* HabitCell.swift */; };
 		36661BC3296C30ED00016070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36661BC2296C30ED00016070 /* AppDelegate.swift */; };
 		36661BC5296C30ED00016070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36661BC4296C30ED00016070 /* SceneDelegate.swift */; };
-		36661BC7296C30ED00016070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36661BC6296C30ED00016070 /* ViewController.swift */; };
 		36661BCA296C30ED00016070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36661BC8296C30ED00016070 /* Main.storyboard */; };
 		36661BCC296C30EF00016070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36661BCB296C30EF00016070 /* Assets.xcassets */; };
 		36661BCF296C30EF00016070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36661BCD296C30EF00016070 /* LaunchScreen.storyboard */; };
+		36661BD7296C363400016070 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36661BD6296C363400016070 /* HabitsStore.swift */; };
+		36661BDB296C36F900016070 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36661BDA296C36F900016070 /* HabitsViewController.swift */; };
+		36661BDD296C372000016070 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36661BDC296C372000016070 /* InfoViewController.swift */; };
+		36661BE2296C3A7E00016070 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36661BE1296C3A7E00016070 /* TextModel.swift */; };
+		36FDF72E297ADEF500CB64EB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDF72D297ADEF500CB64EB /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36026D832976E6940069F487 /* ProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCell.swift; sourceTree = "<group>"; };
+		36026D852978267D0069F487 /* CreateHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHabitViewController.swift; sourceTree = "<group>"; };
+		36026D87297826FF0069F487 /* EditHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHabitViewController.swift; sourceTree = "<group>"; };
+		36026D8929784AFB0069F487 /* SetCustomTextColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCustomTextColor.swift; sourceTree = "<group>"; };
+		36026D8D2978B1080069F487 /* DetailsHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHabitViewController.swift; sourceTree = "<group>"; };
+		36507D76296C5127001C6F98 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		36507D79296C722A001C6F98 /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		36507D7C296DC4F1001C6F98 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		36507D7E296DC938001C6F98 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		36507D802970473C001C6F98 /* HabitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCell.swift; sourceTree = "<group>"; };
 		36661BBF296C30ED00016070 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36661BC2296C30ED00016070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36661BC4296C30ED00016070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36661BC6296C30ED00016070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36661BC9296C30ED00016070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36661BCB296C30EF00016070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36661BCE296C30EF00016070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36661BD0296C30EF00016070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36661BD6296C363400016070 /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
+		36661BDA296C36F900016070 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		36661BDC296C372000016070 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		36661BE1296C3A7E00016070 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		36FDF72D297ADEF500CB64EB /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36507D78296C720C001C6F98 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				36507D79296C722A001C6F98 /* ExtensionUIView.swift */,
+				36026D8929784AFB0069F487 /* SetCustomTextColor.swift */,
+				36507D7E296DC938001C6F98 /* Colors.swift */,
+				36FDF72D297ADEF500CB64EB /* Date.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		36507D7B296DC3E2001C6F98 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				36026D852978267D0069F487 /* CreateHabitViewController.swift */,
+				36026D87297826FF0069F487 /* EditHabitViewController.swift */,
+				36026D8D2978B1080069F487 /* DetailsHabitViewController.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
 		36661BB6296C30ED00016070 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +107,38 @@
 			children = (
 				36661BC2296C30ED00016070 /* AppDelegate.swift */,
 				36661BC4296C30ED00016070 /* SceneDelegate.swift */,
-				36661BC6296C30ED00016070 /* ViewController.swift */,
+				36507D76296C5127001C6F98 /* TabBarController.swift */,
+				36661BCD296C30EF00016070 /* LaunchScreen.storyboard */,
+				36507D7B296DC3E2001C6F98 /* Actions */,
+				36661BD9296C36D800016070 /* Info */,
+				36661BD8296C36BB00016070 /* Habits */,
+				36507D78296C720C001C6F98 /* Helpers */,
 				36661BC8296C30ED00016070 /* Main.storyboard */,
 				36661BCB296C30EF00016070 /* Assets.xcassets */,
-				36661BCD296C30EF00016070 /* LaunchScreen.storyboard */,
 				36661BD0296C30EF00016070 /* Info.plist */,
 			);
 			path = MyHabits;
+			sourceTree = "<group>";
+		};
+		36661BD8296C36BB00016070 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				36661BD6296C363400016070 /* HabitsStore.swift */,
+				36661BDA296C36F900016070 /* HabitsViewController.swift */,
+				36507D7C296DC4F1001C6F98 /* HeaderView.swift */,
+				36507D802970473C001C6F98 /* HabitCell.swift */,
+				36026D832976E6940069F487 /* ProgressCell.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		36661BD9296C36D800016070 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				36661BDC296C372000016070 /* InfoViewController.swift */,
+				36661BE1296C3A7E00016070 /* TextModel.swift */,
+			);
+			path = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +212,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36661BC7296C30ED00016070 /* ViewController.swift in Sources */,
+				36026D8E2978B1080069F487 /* DetailsHabitViewController.swift in Sources */,
+				36661BE2296C3A7E00016070 /* TextModel.swift in Sources */,
+				36507D7F296DC938001C6F98 /* Colors.swift in Sources */,
+				36661BD7296C363400016070 /* HabitsStore.swift in Sources */,
+				36507D77296C5127001C6F98 /* TabBarController.swift in Sources */,
+				36026D842976E6940069F487 /* ProgressCell.swift in Sources */,
+				36507D7A296C722A001C6F98 /* ExtensionUIView.swift in Sources */,
+				36FDF72E297ADEF500CB64EB /* Date.swift in Sources */,
+				36507D7D296DC4F1001C6F98 /* HeaderView.swift in Sources */,
 				36661BC3296C30ED00016070 /* AppDelegate.swift in Sources */,
+				36661BDB296C36F900016070 /* HabitsViewController.swift in Sources */,
+				36661BDD296C372000016070 /* InfoViewController.swift in Sources */,
+				36026D88297826FF0069F487 /* EditHabitViewController.swift in Sources */,
 				36661BC5296C30ED00016070 /* SceneDelegate.swift in Sources */,
+				36507D812970473C001C6F98 /* HabitCell.swift in Sources */,
+				36026D8A29784AFB0069F487 /* SetCustomTextColor.swift in Sources */,
+				36026D862978267D0069F487 /* CreateHabitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
